@@ -1,4 +1,3 @@
-
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
@@ -11,11 +10,11 @@ export default function Home() {
         transition={{ duration: 0.8 }}
         className="bg-white bg-opacity-10 backdrop-blur-md p-8 md:p-12 rounded-2xl shadow-lg max-w-xl text-center text-white mt-8 mb-8"
       >
-                <h1 className="text-4xl font-bold mb-4">Tomatocoin 🍅</h1>
+        <h1 className="text-4xl font-bold mb-4">Tomatocoin 🍅</h1>
         <p className="text-lg mb-2">
           Discover Tomatocoin, the memecoin that refreshes your portfolio!
         </p>
-        <p className="text-base mb-8">
+        <p className="text-base mb-6">
           CA: CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon
         </p>
         <div className="flex flex-col gap-4">
@@ -48,20 +47,17 @@ export default function Home() {
             📈 Graph on Dexscreener
           </a>
         </div>
-	<Image
+        <Image
           src="/tomato-girl.png"
           alt="Tomato Girl"
           width={400}
           height={400}
-          className="mx-auto rounded-xl mb-6 mt-12"
+          className="mx-auto rounded-xl mb-6 mt-16"
         />
-
-	<p className="text-base mt-4">
-  	   Tomatocoin has been created on 28 June 2025 using the Moonshot app. It ensures an high level of security. This is not financial advice, do your own research.
-	</p>
-	
+        <p className="text-base mt-4">
+          Our official Tomato mascot 🍅 — always ready to pump!
+        </p>
       </motion.div>
     </div>
-
   )
 }
