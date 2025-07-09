@@ -8,14 +8,14 @@ export default function Home() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="bg-white bg-opacity-10 backdrop-blur-md p-8 md:p-12 rounded-2xl shadow-lg max-w-xl text-center text-white mt-8 mb-8"
+        className="bg-white bg-opacity-10 backdrop-blur-md p-8 md:p-12 rounded-2xl shadow-lg max-w-xl text-center text-white mt-12 mb-12"
       >
         <h1 className="text-4xl font-bold mb-4">Tomatocoin 🍅</h1>
         <p className="text-lg mb-2">
-          Discover Tomatocoin, the memecoin that refreshes your portfolio!
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna vel justo facilisis viverra.
         </p>
-        <p className="text-base mb-6">
-          CA: CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon
+        <p className="text-base mb-8">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
         </p>
         <div className="flex flex-col gap-4">
           <a
@@ -52,9 +52,9 @@ export default function Home() {
           alt="Tomato Girl"
           width={400}
           height={400}
-          className="mx-auto rounded-xl mb-6 mt-16"
+          className="mx-auto rounded-xl mb-6 mt-20"
         />
-        <p className="text-base mt-4">
+        <p className="text-base mt-6">
           Our official Tomato mascot 🍅 — always ready to pump!
         </p>
       </motion.div>
