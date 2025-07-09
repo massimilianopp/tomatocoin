@@ -9,7 +9,7 @@ export default function Home() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-2xl shadow-lg max-w-xl text-center text-white"
+        className="bg-white bg-opacity-10 backdrop-blur-md p-8 md:p-12 rounded-2xl shadow-lg max-w-xl text-center text-white mt-8 mb-8"
       >
                 <h1 className="text-4xl font-bold mb-4">Tomatocoin 🍅</h1>
         <p className="text-lg mb-2">
