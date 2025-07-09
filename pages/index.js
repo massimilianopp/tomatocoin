@@ -53,7 +53,7 @@ export default function Home() {
           alt="Tomato Girl"
           width={400}
           height={400}
-          className="mx-auto rounded-xl mb-6 mt-8"
+          className="mx-auto rounded-xl mb-6 mt-12"
         />
 
 	<p className="text-base mt-4">
