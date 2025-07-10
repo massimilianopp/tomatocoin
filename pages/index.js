@@ -14,9 +14,6 @@ export default function Home() {
         <p className="text-lg mb-2">
           Tomatocoin is a memecoin created on 28 June 2025 using the Moonshot app.
         </p>
-        <p className="text-base break-words mb-2">
-          CA: CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon
-        </p>
         <p className="text-base mb-8">
           This is not financial advice, do your own research.
         </p>
