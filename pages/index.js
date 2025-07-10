@@ -13,7 +13,9 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-4">Tomatocoin 🍅</h1>
         <p className="text-lg mb-2">
           Tomatocoin is a memecoin created on 28 June 2025 using the Moonshot app.
-	  CA:CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon
+        </p>
+        <p className="text-base break-words mb-2">
+          CA: CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon
         </p>
         <p className="text-base mb-8">
           This is not financial advice, do your own research.
@@ -41,24 +43,4 @@ export default function Home() {
             💬 Join our Telegram
           </a>
           <a
-            href="https://dexscreener.com/solana/3ypq174goek9gg39r2eosxvc8fli3qwowkd3uacvnlsf"
-            target="_blank"
-            className="border border-white text-white text-lg py-3 rounded hover:bg-white hover:text-red-600 transition"
-          >
-            📈 Graph on Dexscreener
-          </a>
-        </div>
-        <Image
-          src="/tomato-girl.png"
-          alt="Tomato Girl"
-          width={400}
-          height={400}
-          className="mx-auto rounded-xl mb-6 mt-20"
-        />
-        <p className="text-base mt-6">
-          Tomatola, official ambassador of Tomatocoin 🍅 — always ready to pump!
-        </p>
-      </motion.div>
-    </div>
-  )
-}
+            href="https://dexscreener
