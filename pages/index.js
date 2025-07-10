@@ -13,6 +13,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-4">Tomatocoin 🍅</h1>
         <p className="text-lg mb-2">
           Tomatocoin is a memecoin created on 28 June 2025 using the Moonshot app.
+	  CA:CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon
         </p>
         <p className="text-base mb-8">
           This is not financial advice, do your own research.
