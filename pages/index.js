@@ -43,4 +43,24 @@ export default function Home() {
             💬 Join our Telegram
           </a>
           <a
-            href="https://dexscreener
+            href="https://dexscreener.com/solana/3ypq174goek9gg39r2eosxvc8fli3qwowkd3uacvnlsf"
+            target="_blank"
+            className="border border-white text-white text-lg py-3 rounded hover:bg-white hover:text-red-600 transition"
+          >
+            📈 Graph on Dexscreener
+          </a>
+        </div>
+        <Image
+          src="/tomato-girl.png"
+          alt="Tomato Girl"
+          width={400}
+          height={400}
+          className="mx-auto rounded-xl mb-6 mt-20"
+        />
+        <p className="text-base mt-6">
+          Tomatola, official ambassador of Tomatocoin 🍅 — always ready to pump!
+        </p>
+      </motion.div>
+    </div>
+  )
+}
