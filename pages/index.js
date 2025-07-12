@@ -80,11 +80,11 @@ export default function Home() {
         </p>
         <p className="text-sm md:text-base">Total supply: 1,000,000,000 🍅</p>
         <a
-          href="https://dexscreener.com/solana/3ypq174goek9gg39r2eosxvc8fli3qwowkd3uacvnlsf"
+          href="https://www.geckoterminal.com/solana/pools/3YpQ174goeK9Gg39r2eoSXVc8FLi3QwoWkD3uAcVNLSf"
           target="_blank"
           className="border border-white text-white text-base md:text-lg py-3 px-6 rounded hover:bg-white hover:text-red-600 transition inline-block mt-4"
         >
-          📈 View on Dexscreener
+          📈 View on GeckoTerminal
         </a>
       </section>
 
