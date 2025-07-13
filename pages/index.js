@@ -88,6 +88,21 @@ export default function Home() {
         </a>
       </section>
 
+      {/* Roadmap */}
+      <section className="max-w-2xl w-full text-white mb-10 text-center px-2">
+        <h2 className="text-2xl md:text-3xl font-bold mb-3">Our Roadmap</h2>
+        <div className="flex justify-center">
+          <Image
+            src="/Roadmap.png"
+            alt="Tomatocoin Roadmap"
+            width={800}
+            height={1200}
+            className="w-full rounded-xl shadow-lg"
+          />
+        </div>
+      </section>
+
+
       {/* Footer */}
       <footer className="text-white text-center mb-6 text-xs opacity-70 px-2">
         <p>This is not financial advice. Always do your own research.</p>
